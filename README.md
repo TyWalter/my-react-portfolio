@@ -13,8 +13,10 @@ xxxxxxxxxxxxxxx This is also for grading purposes.
 
 ## Acknowledgments
 Thank you to 
+* [Bootstrap](https://getbootstrap.com/docs/5.3/getting-started/introduction/)
 * [React](https://react.dev/)
 * [React-dom](https://www.npmjs.com/package/react-dom)
+* [React-router-dom](https://www.npmjs.com/package/react-router-dom)
 * [Vite](https://vitejs.dev/)
 
 
