@@ -15,20 +15,18 @@ export default function App() {
   return (
     <>
       <AppProvider>
+        <Header />
         <div>
-          <Header />
-          <div>
-            <BrowserRouter>
-              <Routes>
-                <Route path="/" element={<HomePage />} />
-                <Route path="/portfolio" element={<PortfolioPage />} />
-                <Route path="/contact" element={<ContactPage />} />
-                <Route path="/resume" element={<ResumePage />} />
-              </Routes>
-            </BrowserRouter>
-          </div>
-          <Footer />
+          <BrowserRouter>
+            <Routes>
+              <Route path="/" element={<HomePage />} />
+              <Route path="/portfolio" element={<PortfolioPage />} />
+              <Route path="/contact" element={<ContactPage />} />
+              <Route path="/resume" element={<ResumePage />} />
+            </Routes>
+          </BrowserRouter>
         </div>
+        <Footer />
       </AppProvider>
     </>
   )

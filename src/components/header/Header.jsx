@@ -8,12 +8,15 @@ export default function Header(){
 
   return (
     <BrowserRouter>
-      <header>
-        {/* Image links to homepage */}
-        <Link to="/"><img className="logo" src="./images/Tyler.png" alt="Tyler Walter Fox Logo" /></Link>
-        <Nav />
-      </header>
-      
+      <div className="headerBox">
+        <header>
+          {/* Image link to homepage */}
+          <div className="logoLink">
+            <Link to="/"><img className="logo" src="./images/Tyler.png" alt="Tyler Walter Fox Logo" /></Link>
+          </div>
+          <Nav />
+        </header>
+      </div>
     </BrowserRouter>
   )
 }
