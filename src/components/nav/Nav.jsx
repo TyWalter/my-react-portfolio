@@ -4,7 +4,6 @@ import "./Nav.css"
 
 // Exporting functional component
 export default function Nav(){
-
   return (
     <nav>
       {/* Homepage/About Me */}

@@ -4,7 +4,7 @@
   --blue: #17BEBB;
   --black: #2E282A;
   --pink: #DD5092;
-  --purple: #7378CC;
+  --purple: rgb(115, 120, 204);
 }
 
 /* Font theme */
@@ -16,23 +16,42 @@
   color: white;
 }
 
+h3{
+  color: var(--purple);
+  font-style: italic;
+  font-size: 2rem;
+  text-shadow: 1px 1px 5px black;
+  filter: drop-shadow(3px 3px 2px var(--black));
+  -webkit-text-stroke-width: .3px;
+  -webkit-text-stroke-color: var(--black);
+}
+
+h4{
+  color: var(--red);
+  font-style: italic;
+  font-size: 2rem;
+  text-shadow: 1px 1px 5px black;
+  filter: drop-shadow(3px 3px 2px var(--black));
+  -webkit-text-stroke-width: .3px;
+  -webkit-text-stroke-color: var(--black);
+}
+
+h6 {
+  font-size: 1.5rem;
+  letter-spacing: .75px;
+}
+
 /* Body styling */
 body {
   background-image: url(./images/background.webp);
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 100vh;
-  margin: 0;
   display: flex;
-  flex-direction: column;
-}
-
-#root {
-  display: flex;
-  min-height: 100vh;
   flex-direction: column;
 }
 
 .pageHeight {
   flex: 1;
+  min-height: 78vh;
 }

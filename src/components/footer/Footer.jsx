@@ -4,7 +4,6 @@ import "./Footer.css"
 // Exporting functional component
 export default function Footer(){
 
-
   return (
     <div className="footerBox">
       <footer>

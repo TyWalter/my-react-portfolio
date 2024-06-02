@@ -1,4 +1,5 @@
 // Importing pages and components
+import React from "react"
 import {BrowserRouter, Routes, Route} from "react-router-dom";
 import AppProvider from "./providers/AppProvider";
 import HomePage from "./pages/homepage/HomePage.jsx";
@@ -29,5 +30,3 @@ export default function App() {
     </AppProvider>
   )
 };
-
-
