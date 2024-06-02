@@ -13,22 +13,20 @@ import "/node_modules/bootstrap/dist/css/bootstrap.min.css";
 export default function App() {
 
   return (
-    <>
-      <AppProvider>
-        <Header />
-        <div>
-          <BrowserRouter>
-            <Routes>
-              <Route path="/" element={<HomePage />} />
-              <Route path="/portfolio" element={<PortfolioPage />} />
-              <Route path="/contact" element={<ContactPage />} />
-              <Route path="/resume" element={<ResumePage />} />
-            </Routes>
-          </BrowserRouter>
-        </div>
-        <Footer />
-      </AppProvider>
-    </>
+    <AppProvider>
+      <Header />
+      <div className="pageHeight">
+        <BrowserRouter>
+          <Routes>
+            <Route path="/" element={<HomePage />} />
+            <Route path="/portfolio" element={<PortfolioPage />} />
+            <Route path="/contact" element={<ContactPage />} />
+            <Route path="/resume" element={<ResumePage />} />
+          </Routes>
+        </BrowserRouter>
+      </div>
+      <Footer />
+    </AppProvider>
   )
 };
 

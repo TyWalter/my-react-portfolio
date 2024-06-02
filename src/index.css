@@ -18,5 +18,21 @@
 
 /* Body styling */
 body {
-  background-image: url(./images/blue-pink-background-darker.jpg);
+  background-image: url(./images/background.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+#root {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.pageHeight {
+  flex: 1;
 }

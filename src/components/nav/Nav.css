@@ -12,11 +12,17 @@ nav {
   flex-direction: row;
   justify-content: space-around;
   width: fit-content;
-  padding: 35px;
-  flex-wrap: nowrap;
+  margin: 0 35px;
   color: white;
   font-size: 1.75rem;
   font-weight: bold;
   font-style: italic;
-  text-shadow: 0 0 12px var(--black);
+  text-shadow: 2px 2px 2px black;
+  filter: drop-shadow(3px 3px 2px var(--black));
+  -webkit-text-stroke-width: .3px;
+  -webkit-text-stroke-color: black;
+  &:hover {
+    filter: drop-shadow(3px 3px 2px var(--black)) drop-shadow(-1px -1px 3px var(--pink));  
+  }
 }
+
