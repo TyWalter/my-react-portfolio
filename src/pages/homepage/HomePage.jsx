@@ -8,7 +8,7 @@ export default function HomePage(){
     <div className="container">
       <div className="spacer"></div>
       <main className="mainAbout">
-        <img src="./images/tylerwalter.png" alt="image of tyler walter" className="tylerImage" />
+        <img src="/images/tylerwalter.png" alt="image of tyler walter" className="tylerImage" />
         <div className="aboutMe px-5">
           <h1>About Me</h1>
           <p>Hello! I'm Tyler Walter, a passionate web developer with a unique and varied professional background. I recently completed the web-development bootcamp at the University of Minnesota, where I honed my skills in software development, problem-solving, and collaborative teamwork.</p>

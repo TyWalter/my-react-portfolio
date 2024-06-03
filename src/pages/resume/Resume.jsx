@@ -9,7 +9,7 @@ export default function ResumePage(){
       <div className="spacer"></div>
       <section>
         <div className="resume">
-          <a href="./tyler.pdf" download><h3>Resumé Download</h3></a>
+          <a href="/tyler.pdf" download><h3>Resumé Download</h3></a>
         </div><br></br><br></br>
         <div className="row justify-content-around">
           <aside className="col-5">

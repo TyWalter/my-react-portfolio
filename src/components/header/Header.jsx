@@ -1,5 +1,5 @@
 // Importing css, nav, and Link
-import {BrowserRouter, Link} from "react-router-dom";
+import {Link} from "react-router-dom";
 import Nav from "../nav/Nav"
 import "./Header.css"
 
@@ -12,7 +12,7 @@ export default function Header(){
         <header>
           {/* Image link to homepage */}
           <div className="logoLink">
-            <Link to="/"><img className="logo" src="./images/Tyler.png" alt="Tyler Walter Fox Logo" /></Link>
+            <Link to="/"><img className="logo" src="/images/Tyler.png" alt="Tyler Walter Fox Logo" /></Link>
           </div>
           <Nav />
         </header>
