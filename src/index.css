@@ -21,7 +21,7 @@ h1, h2, h3, h4, h5, h6 {
   font-style: italic;
   font-size: 2rem;
   text-shadow: 1px 1px 5px black;
-  filter: drop-shadow(3px 3px 2px var(--black));
+  filter: drop-shadow(3px 3px 2px black);
   -webkit-text-stroke-width: .3px;
   -webkit-text-stroke-color: var(--black);
 }
@@ -36,7 +36,7 @@ h2 {
 }
 
 h3 {
-  color: var(--blue);
+  color: var(--purple);
 }
 
 h4 {
