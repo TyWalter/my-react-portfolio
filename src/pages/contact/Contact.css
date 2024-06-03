@@ -27,7 +27,7 @@ textarea::placeholder {
 }
 
 .errorMessage {
-  height: 25px;
+  height: fit-content;
   font-family: "Nunito", Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
@@ -36,6 +36,7 @@ textarea::placeholder {
   letter-spacing: .5px;
   text-shadow: 1px 1px 3px black;
   filter: drop-shadow(3px 3px 2px black);
+  margin-bottom: .75rem;
 }
 
 /* Input styling */
@@ -65,4 +66,5 @@ textarea::placeholder {
   height: 125px;
   white-space: pre-wrap;
   resize: none;
+  margin-bottom: .75rem;
 }

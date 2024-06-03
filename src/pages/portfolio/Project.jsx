@@ -6,7 +6,7 @@ import React from "react";
 export default function Project(){
     // Mapping over projects
     const result = projects.map((project) => (
-      <section key={project.id} className="projects col-4">
+      <section key={project.id} className="projects col-6 col-md-4">
         <div className="projectBox">
         <img className="projectImage"src={project.image} alt={project.title} />
         <h4 className="hfour"><a href={project.deployed} target="_blank">{project.title}</a></h4>

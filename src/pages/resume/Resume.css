@@ -11,7 +11,7 @@
 /* Download of resume styling */
 .resume {
   border-radius: 1.5rem;
-  padding-bottom: 1vh;
+  padding-bottom: .75rem;
   width: 25%;
   margin: 0 auto;
   & a {

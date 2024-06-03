@@ -76,7 +76,7 @@ export default function ContactPage(){
               onChange={handleInputChange}
               onBlur={handleBlur}
               required
-            ></textarea><div className="errorMessage">{errorMessage}</div><br></br><br></br>
+            ></textarea><div className="errorMessage">{errorMessage}</div>
             <input 
               type="submit" 
               id="submit" 

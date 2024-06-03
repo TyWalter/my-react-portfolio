@@ -5,15 +5,14 @@ import "./Resume.css"
 export default function ResumePage(){
 
   return (
-    <div className="container-fluid">
+    <div className="container">
       <div className="spacer"></div>
       <section>
         <div className="resume">
           <a href="./tyler.pdf" download><h3>Resumé Download</h3></a>
         </div><br></br><br></br>
-        <div className="row">
-          <div className="col-sm-2"></div>
-          <aside className="col">
+        <div className="row justify-content-around">
+          <aside className="col-5">
             <h4>Front-end Proficiencies</h4><br></br>
             <div className="asterisk">
               <h6>» HTML «</h6>
@@ -26,8 +25,7 @@ export default function ResumePage(){
               <h6>» OOP «</h6>
             </div>
           </aside>
-          <div className="col-sm-2"></div>
-          <aside className="col">
+          <aside className="col-5">
             <h4>Back-end Proficiencies</h4><br></br>
             <div className="asterisk">
               <h6>» Node «</h6>
@@ -39,7 +37,6 @@ export default function ResumePage(){
               <h6>» MERN «</h6>
             </div>
           </aside>
-          <div className="col-sm-2"></div>
         </div>
       </section>
     </div>

@@ -78,3 +78,47 @@ body {
   flex: 1;
   min-height: 78vh;
 }
+
+/* Media queries for phone at 576 breakpoint */
+@media screen and (max-width: 576px) {
+  .navElement {
+    font-size: 1.2rem;
+  }
+
+  .profileLink img {
+    margin: 0 2rem;
+  }
+
+  li {
+    margin: 1rem 1rem 0 1rem;
+  }
+
+  .hfour a {
+    font-size: 1.4rem;
+  }
+
+  .resume {
+    width: 67%;
+    padding-bottom: .75rem;
+  }
+
+  aside {
+    margin-bottom: 2rem;
+  }
+
+  .col-5 {
+    width: 75%;
+  }
+
+  h2 {
+    margin-bottom: -1.5rem;
+  }
+
+  #flName, #email, #message {
+    width: 90%;
+  }
+
+  #message {
+    height: 12rem;
+  }
+}
