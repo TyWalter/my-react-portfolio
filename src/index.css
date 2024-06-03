@@ -14,10 +14,10 @@
   font-weight: 400;
   font-style: normal;
   color: white;
+  letter-spacing: .5px;
 }
 
-h3{
-  color: var(--purple);
+h1, h2, h3, h4, h5, h6 {
   font-style: italic;
   font-size: 2rem;
   text-shadow: 1px 1px 5px black;
@@ -26,19 +26,42 @@ h3{
   -webkit-text-stroke-color: var(--black);
 }
 
-h4{
+h1 {
   color: var(--red);
-  font-style: italic;
-  font-size: 2rem;
-  text-shadow: 1px 1px 5px black;
-  filter: drop-shadow(3px 3px 2px var(--black));
-  -webkit-text-stroke-width: .3px;
-  -webkit-text-stroke-color: var(--black);
+  font-size: 2.5rem;
+}
+
+h2 {
+  color: var(--red);
+}
+
+h3 {
+  color: var(--blue);
+}
+
+h4 {
+  color: var(--red);
+}
+
+h5 {
+  color: var(--red);
+  font-size: 1.75rem;
+  text-shadow: 1px 1px 2px black;
+  line-height: 2;
 }
 
 h6 {
+  font-family: "Commisioner", Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   font-size: 1.5rem;
-  letter-spacing: .75px;
+  color: white;
+}
+
+p, li {
+  font-family: "Commisioner", Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 1.05rem;
+  letter-spacing: .25px;
+  text-shadow: 1px 1px 2px black;
+  filter: drop-shadow(3px 3px 2px var(--black));
 }
 
 /* Body styling */

@@ -1,7 +1,6 @@
 // Importing pages and components
 import React from "react"
 import {BrowserRouter, Routes, Route} from "react-router-dom";
-import AppProvider from "./providers/AppProvider";
 import HomePage from "./pages/homepage/HomePage.jsx";
 import PortfolioPage from "./pages/portfolio/Portfolio.jsx";
 import ContactPage from "./pages/contact/Contact.jsx";
@@ -14,19 +13,17 @@ import "/node_modules/bootstrap/dist/css/bootstrap.min.css";
 export default function App() {
 
   return (
-    <AppProvider>
+    <BrowserRouter>
       <Header />
       <div className="pageHeight">
-        <BrowserRouter>
-          <Routes>
-            <Route path="/" element={<HomePage />} />
-            <Route path="/portfolio" element={<PortfolioPage />} />
-            <Route path="/contact" element={<ContactPage />} />
-            <Route path="/resume" element={<ResumePage />} />
-          </Routes>
-        </BrowserRouter>
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/portfolio" element={<PortfolioPage />} />
+          <Route path="/contact" element={<ContactPage />} />
+          <Route path="/resume" element={<ResumePage />} />
+        </Routes>
       </div>
       <Footer />
-    </AppProvider>
+    </BrowserRouter>
   )
 };
