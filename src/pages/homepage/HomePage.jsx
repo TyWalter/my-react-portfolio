@@ -1,9 +1,8 @@
 // Importing css
 import "./HomePage.css";
 
-
+// Exporting functionable page
 export default function HomePage(){
-
 
   return (
     <div className="container">
@@ -38,4 +37,4 @@ export default function HomePage(){
       </main>
     </div>
   )
-}
+};

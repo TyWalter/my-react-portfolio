@@ -1,7 +1,7 @@
 // Importing css
 import "./Resume.css"
 
-// Exporting functional component
+// Exporting functional page
 export default function ResumePage(){
 
   return (

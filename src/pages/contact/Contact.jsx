@@ -1,6 +1,6 @@
 
 
-
+// Exporting functionable page
 export default function ContactPage(){
 
 
@@ -9,4 +9,4 @@ export default function ContactPage(){
     
     </>
   )
-}
+};

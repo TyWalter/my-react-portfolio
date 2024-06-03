@@ -1,0 +1,50 @@
+/* H2 styling */
+h2 {
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
+/* Project box styling */
+.projects {
+  display: flex;
+  position: relative;
+  margin: 1.5rem auto;
+}
+
+.projectBox {
+  position: relative;
+  margin: 0 auto;
+  width: 80%;
+}
+
+.projectBox:hover .hfour {
+  visibility: visible;
+  opacity: 1;
+}
+
+.projectBox:hover img {
+  filter: brightness(50%);
+}
+
+/* Project image styling */
+.projects img {
+  justify-self: center;
+  height: 15rem;
+  width: 100%;
+  border: 2px solid black;
+  border-radius: 2.5rem;
+  transition: filter 0.3s ease;
+}
+
+/* Project title styling */
+.projects .hfour {
+  position: absolute;
+  text-align: center;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: fit-content;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
