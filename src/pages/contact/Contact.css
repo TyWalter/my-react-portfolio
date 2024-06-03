@@ -1,0 +1,68 @@
+
+/* Contact box styling */
+.contactBox {
+  border: 2px solid var(--purple);
+  border-radius: 2.5rem;
+  background-color: rgba(0, 0, 0, .75);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  padding: 0 2rem 2vh 2rem;
+  margin: 0 auto 2rem auto;
+  width: 65%;
+  text-align: center;
+}
+
+/* Text styling */
+.htwo {
+  margin-top: 2rem;
+}
+
+input::placeholder {
+  color: rgb(150, 150, 150);
+  font-style: italic;
+}
+
+textarea::placeholder {
+  color: rgb(150, 150, 150);
+  font-style: italic;
+}
+
+.errorMessage {
+  height: 25px;
+  font-family: "Nunito", Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  font-style: normal;
+  color: var(--pink);
+  letter-spacing: .5px;
+  text-shadow: 1px 1px 3px black;
+  filter: drop-shadow(3px 3px 2px black);
+}
+
+/* Input styling */
+#submit, #flName, #email, #message {
+  font-family: "Nunito", Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+  letter-spacing: .5px;
+  width: fit-content;
+  padding: 5px 20px;
+  border: 2px solid var(--purple);
+  border-radius: .5rem;
+  background-color: rgba(115, 120, 204, .5);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  text-shadow: 1px 1px 3px black;
+  filter: drop-shadow(3px 3px 2px black);
+  margin-bottom: 1.5rem;
+}
+
+#flName, #email, #message {
+  width: 75%;
+}
+
+#message {
+  height: 125px;
+  white-space: pre-wrap;
+  resize: none;
+}

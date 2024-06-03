@@ -35,6 +35,7 @@ h2 {
 
 /* Project image styling */
 .projectImage {
+  filter: brightness(80%);
   justify-self: center;
   height: 15rem;
   width: 100%;
