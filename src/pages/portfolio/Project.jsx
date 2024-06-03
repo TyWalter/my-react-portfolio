@@ -8,8 +8,9 @@ export default function Project(){
     const result = projects.map((project) => (
       <section key={project.id} className="projects col-4">
         <div className="projectBox">
-        <img src={project.image} alt={project.title} />
-        <h4 className="hfour">{project.title}</h4>
+        <img className="projectImage"src={project.image} alt={project.title} />
+        <h4 className="hfour"><a href={project.deployed} target="_blank">{project.title}</a></h4>
+        <a href={project.github} target="_blank"><img className="githubIcon" src="./images/github.png" alt="github icon" /></a>
         </div>
       </section>
     ));

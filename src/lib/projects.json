@@ -37,7 +37,7 @@
   {
     "id": 6,
     "image": "./images/imagenotetaker.png",
-    "title": "Note Take",
+    "title": "Note Taker",
     "github": "https://github.com/TyWalter/note-taker",
     "deployed": "https://note-taker-orw0.onrender.com/"
   }
