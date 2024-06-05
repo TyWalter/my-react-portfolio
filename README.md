@@ -4,6 +4,7 @@
   This website is a culmination of my time here in the UDX bootcamp as a bootcamp student. This is my personal portfolio made with react to display my skills as a web developer. Throughout the site, I use the same color palette, text, and I try to keep the theme of all the pages similar to one another while maintaining a unique feel for each page. On this site, you'll be able to download my resumé, fill out a contact form, and browse some of my past work. Feel free to drop me a message here, or on one of my social networking sites that are provided in the footer. I hope you enjoy my portfolio and are able to learn just a little bit about me!
 
 ## Visuals
+* [Link to the deployed site](https://ty-walter-react-portfolio.netlify.app)
 * ![Here is a screenshot of the homepage](./public/images/hppc.png) This is a screenshot of the homepage in desktop mode.
 * ![Here is a screenshot of the homepage](./public/images/hpphone.png) This is a screenshot of the homepage in mobile mode.
 
@@ -20,9 +21,7 @@ Thank you to
 * [React-router-dom](https://www.npmjs.com/package/react-router-dom)
 * [Vite](https://vitejs.dev/)
 
-
 ## Support
 If you have any issues with this repo, shoot me an email at walterty89@gmail.com. 
 
 [Here is a link to my GitHub](https://github.com/TyWalter) if you would prefer to contact me this way.
-
