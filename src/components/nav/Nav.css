@@ -21,5 +21,8 @@ nav {
   filter: drop-shadow(3px 3px 2px var(--black));
   -webkit-text-stroke-width: .3px;
   -webkit-text-stroke-color: black;
+  &:hover {
+    filter: drop-shadow(3px 3px 2px var(--black)) drop-shadow(-1px -1px 3px var(--pink));
+  }
 }
 
