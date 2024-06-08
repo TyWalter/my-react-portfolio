@@ -150,7 +150,7 @@ body {
   }
 
   .navElement {
-    margin: 0 auto;
+    margin: 0 1.5rem;
   }
 
   .navElement .active {
@@ -172,6 +172,10 @@ body {
 
   .aboutMe h5 {
     line-height: 1.25;
+  }
+
+  main h2 {
+    margin-bottom: 0;
   }
 
   .projects {
@@ -216,6 +220,7 @@ body {
 
   .profileLink {
     width: 100vw;
+    text-align: center;
   }
 
   .profileLink img {
