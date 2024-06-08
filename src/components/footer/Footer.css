@@ -18,6 +18,7 @@ footer {
 /* Image styling */
 .profileLink img {
   margin: 0 5rem;
+  padding-bottom: 1rem;
   filter: drop-shadow(3px 3px 2px var(--black));
   &:hover {
     filter: drop-shadow(3px 3px 2px var(--black)) drop-shadow(0px 0px 5px var(--pink));  

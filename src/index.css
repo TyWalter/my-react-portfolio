@@ -122,3 +122,103 @@ body {
     height: 12rem;
   }
 }
+
+@media screen and (max-width: 340px), (max-height: 700) {
+  header {
+    width: 90vw;
+    height: 20vh;
+  }
+  
+  .logo {
+    height: 150px;
+    width: 150px;
+    filter: drop-shadow(3px 3px 2px var(--black)) drop-shadow(0px 0px 5px var(--pink));
+  }
+
+  .logoLink {
+    padding-left: 0;
+  }
+
+  .tylerImage {
+    height: 200px;
+    width: 200px;
+  }
+
+  nav {
+    margin-right: 1rem;
+    text-align: center;
+  }
+
+  .navElement {
+    margin: 0 auto;
+  }
+
+  .navElement .active {
+    filter: drop-shadow(3px 3px 2px var(--black)) drop-shadow(-1px -1px 3px var(--pink));
+  }
+
+  .mainAbout {
+    padding: .5rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+
+  .aboutMe {
+    width: fit-content;
+    text-align: center;
+  }
+
+  .aboutMe h5 {
+    line-height: 1.25;
+  }
+
+  .projects {
+    width: 100%;
+  }
+
+  .projectBox {
+    width: 90%;
+  }
+
+  .projectImage {
+    filter: brightness(50%);
+  }
+
+  .hfour, .githubIcon {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  .hfour a {
+    font-size: 2rem;
+  }
+
+  .px-5 {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+
+  .col-5 {
+    width: 90vw;
+  }
+
+  .contactBox {
+    width: 90vw;
+    padding: 0;
+  }
+
+  footer {
+    justify-content: center;
+    margin: 1rem auto;
+  }
+
+  .profileLink {
+    width: 100vw;
+  }
+
+  .profileLink img {
+    margin: 0 1.5rem;
+  }
+}

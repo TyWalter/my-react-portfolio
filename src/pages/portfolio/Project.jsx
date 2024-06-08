@@ -17,7 +17,7 @@ export default function Project(){
 
   return (
     <>
-      {result};
+      {result}
     </>
   )
 };
